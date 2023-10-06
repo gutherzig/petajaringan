@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T07:06:51.041Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Jo9dv-PlnQ_cxpHojPoi" version="22.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T07:08:48.465Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5TtAHHxU1ff9ax5sPitG" version="22.0.3" type="github">
   <diagram name="Page-1" id="7uUNHB3D6bnJ25_Q-u6E">
     <mxGraphModel dx="548" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="XazhhFK-lQimcf8I5ejK-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-2" target="XazhhFK-lQimcf8I5ejK-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XazhhFK-lQimcf8I5ejK-2" value="SWB-PEL" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="XazhhFK-lQimcf8I5ejK-2" value="BB-PEL" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
           <mxGeometry x="583.6206896551724" y="419.9995652173913" width="42.75862068965518" height="49.85507246376811" as="geometry" />
         </mxCell>
         <mxCell id="XazhhFK-lQimcf8I5ejK-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-1" target="XazhhFK-lQimcf8I5ejK-2">
@@ -28,7 +28,7 @@
         <mxCell id="XazhhFK-lQimcf8I5ejK-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-3" target="XazhhFK-lQimcf8I5ejK-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XazhhFK-lQimcf8I5ejK-3" value="SWB-MGS" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="XazhhFK-lQimcf8I5ejK-3" value="BB-MGS" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
           <mxGeometry x="717.2413793103449" y="419.9995652173913" width="42.75862068965518" height="49.85507246376811" as="geometry" />
         </mxCell>
         <mxCell id="XazhhFK-lQimcf8I5ejK-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-1" target="XazhhFK-lQimcf8I5ejK-3">
@@ -37,7 +37,7 @@
         <mxCell id="XazhhFK-lQimcf8I5ejK-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-4" target="XazhhFK-lQimcf8I5ejK-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XazhhFK-lQimcf8I5ejK-4" value="SWB-MP" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="XazhhFK-lQimcf8I5ejK-4" value="BB-MP" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
           <mxGeometry x="450" y="419.9995652173913" width="42.75862068965518" height="49.85507246376811" as="geometry" />
         </mxCell>
         <mxCell id="XazhhFK-lQimcf8I5ejK-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-2" target="XazhhFK-lQimcf8I5ejK-4">
@@ -67,16 +67,16 @@
         <mxCell id="XazhhFK-lQimcf8I5ejK-22" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
           <mxGeometry x="717.2413793103449" y="328.5507246376811" width="42.75862068965518" height="49.85507246376811" as="geometry" />
         </mxCell>
-        <mxCell id="XazhhFK-lQimcf8I5ejK-23" value="SW-MP" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="XazhhFK-lQimcf8I5ejK-23" value="LAN-MP" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
           <mxGeometry x="357.24" y="328.55" width="42.75862068965518" height="49.85507246376811" as="geometry" />
         </mxCell>
         <mxCell id="XazhhFK-lQimcf8I5ejK-38" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-24" target="XazhhFK-lQimcf8I5ejK-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XazhhFK-lQimcf8I5ejK-24" value="SW-MDS" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="XazhhFK-lQimcf8I5ejK-24" value="LAN-MDS" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
           <mxGeometry x="650.0006896551724" y="260" width="42.75862068965518" height="49.85507246376811" as="geometry" />
         </mxCell>
-        <mxCell id="XazhhFK-lQimcf8I5ejK-25" value="SW-BB MGS" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="XazhhFK-lQimcf8I5ejK-25" value="LAN-MGS" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
           <mxGeometry x="840.0013793103449" y="328.55" width="42.75862068965518" height="49.85507246376811" as="geometry" />
         </mxCell>
         <mxCell id="XazhhFK-lQimcf8I5ejK-26" value="SWL-MMU" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
@@ -88,7 +88,7 @@
         <mxCell id="XazhhFK-lQimcf8I5ejK-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-35" target="XazhhFK-lQimcf8I5ejK-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XazhhFK-lQimcf8I5ejK-35" value="SW-PEL" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="XazhhFK-lQimcf8I5ejK-35" value="LAN-PEL" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
           <mxGeometry x="507.00068965517244" y="260" width="42.75862068965518" height="49.85507246376811" as="geometry" />
         </mxCell>
         <mxCell id="XazhhFK-lQimcf8I5ejK-37" value="LAN MDS&lt;br style=&quot;font-size: 9px;&quot;&gt;192.168.136.0/24" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
