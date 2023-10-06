@@ -1,9 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T06:48:05.617Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="22.0.3" etag="M-bDEJxSVy8IoJATvhm7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T07:06:51.041Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Jo9dv-PlnQ_cxpHojPoi" version="22.0.3" type="github">
   <diagram name="Page-1" id="7uUNHB3D6bnJ25_Q-u6E">
-    <mxGraphModel>
+    <mxGraphModel dx="548" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XazhhFK-lQimcf8I5ejK-28" value="LAN MP&lt;br style=&quot;font-size: 9px;&quot;&gt;192.168.135.0/24" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="318.62" y="190.00000000000003" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-29" value="LAN PELANGI&lt;br style=&quot;font-size: 9px;&quot;&gt;192.168.137.0/24" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="468.38" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-1" value="SWB-MMU" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="717.2413793103449" y="512.3913043478261" width="42.75862068965518" height="49.85507246376811" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-2" target="XazhhFK-lQimcf8I5ejK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-2" value="SWB-PEL" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="583.6206896551724" y="419.9995652173913" width="42.75862068965518" height="49.85507246376811" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-1" target="XazhhFK-lQimcf8I5ejK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-3" target="XazhhFK-lQimcf8I5ejK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-3" target="XazhhFK-lQimcf8I5ejK-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-3" value="SWB-MGS" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="717.2413793103449" y="419.9995652173913" width="42.75862068965518" height="49.85507246376811" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-1" target="XazhhFK-lQimcf8I5ejK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-4" target="XazhhFK-lQimcf8I5ejK-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-4" value="SWB-MP" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="450" y="419.9995652173913" width="42.75862068965518" height="49.85507246376811" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-2" target="XazhhFK-lQimcf8I5ejK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-19" target="XazhhFK-lQimcf8I5ejK-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-19" target="XazhhFK-lQimcf8I5ejK-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-19" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="583.6206896551724" y="328.5507246376811" width="42.75862068965518" height="49.85507246376811" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-20" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="717.2413793103449" y="577.8260869565217" width="42.75862068965518" height="49.85507246376811" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-21" target="XazhhFK-lQimcf8I5ejK-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-21" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="450" y="328.5507246376811" width="42.75862068965518" height="49.85507246376811" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-41" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-22" target="XazhhFK-lQimcf8I5ejK-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-22" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="717.2413793103449" y="328.5507246376811" width="42.75862068965518" height="49.85507246376811" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-23" value="SW-MP" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="357.24" y="328.55" width="42.75862068965518" height="49.85507246376811" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-38" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-24" target="XazhhFK-lQimcf8I5ejK-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-24" value="SW-MDS" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="650.0006896551724" y="260" width="42.75862068965518" height="49.85507246376811" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-25" value="SW-BB MGS" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="840.0013793103449" y="328.55" width="42.75862068965518" height="49.85507246376811" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-26" value="SWL-MMU" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="717.2413793103449" y="640.1449275362319" width="42.75862068965518" height="49.85507246376811" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-23" target="XazhhFK-lQimcf8I5ejK-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XazhhFK-lQimcf8I5ejK-35" target="XazhhFK-lQimcf8I5ejK-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-35" value="SW-PEL" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="507.00068965517244" y="260" width="42.75862068965518" height="49.85507246376811" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-37" value="LAN MDS&lt;br style=&quot;font-size: 9px;&quot;&gt;192.168.136.0/24" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="611.38" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-42" value="LAN MGS&lt;br style=&quot;font-size: 9px;&quot;&gt;10.0.1.0/24" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="801.38" y="190.00000000000003" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XazhhFK-lQimcf8I5ejK-43" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" target="XazhhFK-lQimcf8I5ejK-42" parent="1" source="XazhhFK-lQimcf8I5ejK-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="861.76" y="329" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
